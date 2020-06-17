@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Todo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristianSkog/Todo.git"
+  },
+  "author": "Kristian Skog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristianSkog/Todo/issues"
+  },
+  "homepage": "https://github.com/KristianSkog/Todo#readme"
+}

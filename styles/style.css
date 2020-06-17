@@ -1,0 +1,62 @@
+div, h3, p, input, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.addItem {
+    width: calc(100% - 110px);
+    height: 20px;
+}
+
+.addItemButton {
+    width: 100px;
+    height: 25px;
+}
+
+.headerList {
+    margin: 15px 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 10px;
+    margin-bottom: 2px;
+    border-top: 1px solid black;
+}
+
+ul li:first-child {
+    border: none;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.item__container {
+    margin-right: auto;
+}
+
+.item button {
+    align-self: flex-end;
+}
+
+.task {
+    margin: 5px 0;
+}
+
+.date {
+    font-size: 10px;
+    color: #727272;
+    margin: 0;
+    margin-bottom: 5px;
+}
